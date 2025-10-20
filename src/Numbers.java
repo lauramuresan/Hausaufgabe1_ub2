@@ -27,4 +27,11 @@ public class Numbers {
         return max_sum - min_number(numbers);
     }
 
+    public int min_sum(int[] numbers) {
+        int min_sum = 0;
+        for(int i = 0; i < numbers.length; i++) {
+            min_sum += numbers[i];
+        }
+        return min_sum - max_number(numbers);
+    }
 }
