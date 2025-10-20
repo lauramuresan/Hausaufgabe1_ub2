@@ -7,6 +7,6 @@ public class Main {
        Numbers number = new Numbers();
        int[] numbers = {23,1,87,34,11};
        System.out.println(number.max_number(numbers));
-
+        System.out.println(number.min_number(numbers));
     }
 }
