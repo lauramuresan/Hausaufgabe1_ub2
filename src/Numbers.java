@@ -18,4 +18,13 @@ public class Numbers {
         }
         return min_number;
     }
+
+    public int max_sum(int[] numbers) {
+        int max_sum = 0;
+        for(int i = 0; i < numbers.length; i++) {
+            max_sum += numbers[i];
+        }
+        return max_sum - min_number(numbers);
+    }
+
 }
